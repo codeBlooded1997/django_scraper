@@ -1,10 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="row">
-        <h2 style="text-align:center"> {{ search | title }} </h2>
-    </div>
 
+    <h2 style="text-align:center"> {{ search | title }} </h2>
+
+    <h3 style="text-align:center">{{ quantity }}</h3>
+
+    {% for post in final_postings %}
+        <p>{{ post.0 }}</p>
+        <p>{{ post.1 }}</p>
+        <p>{{ post.2 }}</p>
+        <p>{{ post.3 }}</p>
+        <p>{{ post.4 }}</p>
+    {% endfor %}
     <div class="row">
 
         <div class="col s4">
