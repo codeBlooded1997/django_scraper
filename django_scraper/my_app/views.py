@@ -81,7 +81,7 @@ def new_search(request):
             post_img_id = post.find(class_='result-image').get('data-ids').split(',')[0].split(':')[-1]
             post_img_url = BASE_IMAGE_URL.format(post_img_id)
         else:
-            post_image_url = 'https://craigslist.org/images/peace.jpg'
+            post_img_url = 'https://craigslist.org/images/peace.jpg'
 
         if post.find('span', class_='result-price'):
             post_price = post.find('span', class_='result-price').text.strip()
