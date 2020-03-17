@@ -1,9 +1,9 @@
-<h1>JOB FINDER TOOL</h1>
+<h1>Craigslist Clone</h1>
 <p>Arian Aghnaei</p>
 <p>Fall 2019</p>
 <p>Python 3.7.3</p>
 
-<h3>This job search tool, extract information about job and some extra info about location and job summary.</h3>
+<h3>This project is a web scraping application powered by django frame work and beautifulsoup scrtaping tool that I designed a scraping system to search craigls list website and represent extracted data in the webpage</h3>
 <p>source websites : </p>
 <ol>
 		<li>https://www.freelancer.com/</li>
