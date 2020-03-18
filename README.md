@@ -3,7 +3,7 @@
 <p>Fall 2019</p>
 <p>Python 3.7.3</p>
 
-<h3>This project is a web scraping application powered by django frame work and beautifulsoup scrtaping tool that I designed a scraping system to search craigls list website and represent extracted data in the webpage</h3>
+<h3>I developed this web application in django framework and for scraping data I used beautifulsoup and requests for  extracting data from craigslist website.</h3>
 <p>source websites : </p>
 <ol>
 		<li>https://www.freelancer.com/</li>
