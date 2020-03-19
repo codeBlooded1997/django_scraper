@@ -6,27 +6,21 @@
 <h3>I developed this web application in django framework and for scraping data I used beautifulsoup and requests for  extracting data from craigslist website.</h3>
 <p>source websites : </p>
 <ol>
-		<li>https://www.freelancer.com/</li>
-		<li>https://ca.indeed.com/</li>
-		<li>https://www.monster.com/</li>
+		<li>https://www.carigslist.com</li>
 </ol>
 
-<p>It can be designed to store extracted data into a database but it only saves them as a pandas dataframe</p>
+<p>In this project I combined a django powerd web application with a scraping tool whic user enters the search query in the browser and the extracted data will be dsiplayed in the browser.</p>
 <p>I wish theese can be useful fore some one in some way</p>
 
 <h2>What I learned :</h2>
 <ul>
-  <li>Parsing techniques with BeautifulSoup4 module to scrape data from badly structured data.</li>
-  <li>Scraping data from multipe sites in one python file using bs4 library.</li>
-  <li>Managing empty elements while parsing data.</li>	
+  <li>Using the entered data by user and using it in the scraping proccess.</li>
+  <li>Developing a re usable Scraping object and make it useable in any application.</li>
+  <li>Django powered web application design for deplaying web scraping toools and make it able to do searching on the web without need to install or run any command.</li>	
 </ul>
 <br>
-<h4>Run Command :</h4>
 
-<p>python3 job_finder.py</p>
-<br>
-<h4>Output :</h4>
-
-![Image description](https://github.com/codeBlooded1997/job_finder/blob/master/readme-img/result-example1.png?raw=true)
+<h4>Visit App:</h4>
+https://arnial.herokuapp.com/
 
 
