@@ -56,7 +56,9 @@ def new_search(request):
             next_page_url = soup_obj.find('a', class_='button next')['href']
             # creating new url
             new_url = final_url + next_page_url
+            # Creating soup object of next page
             new_bsObj = soup_maker(new_url)
+            # Calling this function to repeating the process.(recursive)
             parse_page(new_bsObj)
         else:
             print('It was last page')
@@ -104,4 +106,5 @@ def new_search(request):
         'final_postings': final_postings,
         'quantity': quantity,
     }
+
     return render(request, 'my_app/new_search.html', stuff_for_frontend)
