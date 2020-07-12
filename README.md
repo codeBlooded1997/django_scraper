@@ -3,24 +3,18 @@
 <p>Fall 2019</p>
 <p>Python 3.7.3</p>
 
-<h3>I developed this web application in django framework and for scraping data I used beautifulsoup and requests for  extracting data from craigslist website.</h3>
-<p>source websites : </p>
-<ol>
-		<li>https://www.carigslist.com</li>
-</ol>
+<h3>I created this open source project from scratch to get more into Django framework</h3>
 
-<p>In this project I combined a django powerd web application with a scraping tool whic user enters the search query in the browser and the extracted data will be dsiplayed in the browser.</p>
-<p>I wish theese can be useful fore some one in some way</p>
-
+<p>In this open source project, I combined a django powerd web application with a webscraping software. The most challenging part of this project for me was getting data from user and actually using the input data in my web scraping software.</p><br />
+<p>I used Heroku for deploying the app. plaese take visit and test this scraper app :    https://arnial.herokuapp.com/</p>
+<hr />
 <h2>What I learned :</h2>
 <ul>
-  <li>Using the entered data by user and using it in the scraping proccess.</li>
-  <li>Developing a re usable Scraping object and make it useable in any application.</li>
-  <li>Django powered web application design for deplaying web scraping toools and make it able to do searching on the web without need to install or run any command.</li>	
+  <li>UGetting data from user as an iput and using in the scraping software.</li>
+  <li>Developing a scraper tool using Object Oriented Pradigm so it's possibl to use the scraper in other codes as a package.</li>
+  <li>Django powered web application design for deplaying web scraping toools and make it able to do searching on the web without need to install or run any command.</li>
+  <li>Deploying the scraper app using Heroku hosting service.</li>
 </ul>
-<br>
-
-<h4>Visit App:</h4>
-https://arnial.herokuapp.com/
-
-
+<hr />
+<p>I'm interesting to know what you are thinking about this open source project so don't hesitate to contact me.</p><br />
+<p>Thanks, Arian</p>
