@@ -6,7 +6,7 @@
 <h3>I created this open source project from scratch to get more into Django framework</h3>
 
 <p>In this open source project, I combined a django powerd web application with a webscraping software. The most challenging part of this project for me was getting data from user and actually using the input data in my web scraping software.</p><br />
-<p>I used Heroku for deploying the app. plaese take visit and test this scraper app :    https://arnial.herokuapp.com/</p>
+<p>I used Heroku for deploying the app. plaese take visit and test this scraper app :    https://arnial.herokuapp.com/ (Unfortunately the the website is not online at the moment)</p>
 <hr />
 <h2>What I learned :</h2>
 <ul>
